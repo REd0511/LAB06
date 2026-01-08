@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightcyan;
+    margin: 0;
+}
+
+.container {
+    padding: 30px;
+    border-radius: 50px;
+    line-height: 2rem;
+    background-color: #FFF1F8;
+}
+
+.container h1 {
+    padding: 15;
+    border-radius: 50px;
+    text-align: center;
+    background: linear-gradient(90deg, #FFADAD, #FFD6A5, #FDFFB6, #CAFFBF, #9BF6FF, #A0C4FF, #BDB2FF);
+    color: #5A189A;
+}
+
+#syntax {
+    background-color: #FFD6E0;
+}
+
+#syntax h1 {
+    background-color: #CDB4FF;
+    color: #5A189A;
+}
+
+#syntax p {
+    text-align: center;
+    font-weight: bold;
+    color: #6A4C93;
+    margin: 0px 30rem 0px 30rem;
+    border-radius: 10px;
+    background-color: #FFF0F6;
+}
+
+#syntax ul{
+    color: #6A4C93;
+}
+
+#stu {
+    background-color: #ffec82;
+    /* #CAFFBF */
+}
+
+#stu h1 {
+    background-color: #BDB2FF;
+    color: #4A148C;
+}
+
+#stu a{
+    color: rgb(201, 78, 78);
+    font-weight: bold;
+}
+
+#stu a:hover{
+    color: brown;
+    font-weight: bold;
+}
+
+#stu-details{
+    background-color: #9BF6FF;
+}
+
+#stu-details h1{
+    color: #5A189A;
+}
+
+.stu-info {
+    background-color: #FDFFB6;
+    padding: 20px;
+}
+
+.stu-info h2{
+    background-color: #FFADAD;
+    color: #6A040F;
+    padding: 10px;
+    width: 10%;
+    text-align: center;
+    border-radius: 2rem;
+}
+
+#back{
+    background-color: #A0C4FF;
+    padding: 5px;
+    width: 10%;
+    text-align: center;
+    border-radius: 1rem;
+}
+#back a{
+    color: #4A148C;
+}
+#back a:hover{
+    color: #7e42c8;
+}
+
+.box {
+    color: black;
+    background-color: lightgray;
+    padding: 20px 30px;
+    width: 90%;
+    margin: 0px;
+    border-radius: 4px;
+}
+
+.box h1 {
+    margin: 0;
+    font-size: 28px;
+    padding: 40px 0px 50px;
+}
+
+nav {
+    padding-bottom: 5px;
+    font-size: 14px;
+}
+
+nav a {
+    color: #1a73e8;
+    /* blue links */
+    text-decoration: none;
+    margin-right: 8px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a.active {
+    font-weight: 700;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: auto;
+}
+
+.content {
+    margin: 20px;
+    padding: 30px 100px 0px 100px;
+    border-radius: 4px;
+    display: inline-flexbox;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    color: #777;
+    margin-top: 20px;
+}
